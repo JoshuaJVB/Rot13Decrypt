@@ -19,13 +19,13 @@ public class Main {
                     if (array[i] > 64 && array[i] < 78){
                             array[i] += 13;
                     }
-                    else if(array[i] > 77 && array[i] > 90){
+                    else if(array[i] > 77 && array[i] < 90){
                             array[i] -= 13;
                     }
                     else if(array[i] > 96 && array[i] < 110){
                         array[i] += 13;
                     }
-                    else if(array[i]>109){
+                    else if(array[i]>109 && array[i] < 123){
                         array[i] -= 13;
                     }
                 }
